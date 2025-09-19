@@ -26,15 +26,15 @@
 
 ### Literature data base search
 
-We conducted a comprehensive search for literature that econometrically estimates energy price elasticities. We detailed our search strategy for relevant literature in [Sec. *Search Strategy* of our pre-registration](...). We used the [EconLit](...) and the [Google Scholar](...) databases for our search of primary studies. Due to differences in their search behaviour,[^1] we decided to use one comprehensive query for EconLit and multiple simpler search queries for Google Scholar.
+We conducted a comprehensive search for literature that econometrically estimates energy price elasticities. We detailed our search strategy for relevant literature in [Sec. *Search Strategy* of our pre-registration](https://osf.io/zdche). We used the [EconLit](https://www.aeaweb.org/econlit/) and the [Google Scholar](https://scholar.google.com/) databases for our search of primary studies. Due to differences in their search behaviour,[^1] we decided to use one comprehensive query for EconLit and multiple simpler search queries for Google Scholar.
 
-The raw results and procedural details of our EconLit search can be accessed [here](...).
+- The raw results and procedural details of our EconLit search can be accessed [here](data/database_search/raw/EconLit_search).
 
-The raw results and procedural details of our Google Scholar search can be accessed [here](...).
+- The raw results and procedural details of our Google Scholar search can be accessed [here](data/database_search/raw/Google_Scholar_search).
 
-[^1]: Check Sec. Search Strategy of the pre-registration for details.
+[^1]: Check Sec. Search Strategy of the [pre-registration](https://osf.io/zdche) for details.
 
-This yielded 23,948 bibliographic entries from our EconLit search and 6,910 bibliographic entries from our Google scholar search. After de-duplication, checks for the availability of abstracts and the application eligibility criteria (see [here](...) for detailed documentation of these steps and related files), our consolidated dataset of primary studies with available abstracts totalled at 22,023 entries.
+This yielded 23,948 bibliographic entries from our EconLit search and 6,910 bibliographic entries from our Google scholar search. After de-duplication, checks for the availability of abstracts and the application of eligibility criteria (see [here](data/database_search/processed/preparation_for_abstract_screening) for detailed documentation of these steps and related files), our consolidated dataset of primary studies with available abstracts totalled at 22,023 entries.
 
 ### Exclusion criteria
 
@@ -62,7 +62,7 @@ In our PAP (https://osf.io/zdche) we had already specified several exclusion cri
 
 ### Abstract screening
 
-This dataset of 22,023 studies then entered into the artificial intelligence-supported abstract screening to exclude clearly ineligible studies according to our eligibility criteria as defined in [Sec. *Selection of studies, method of extracting data*](...) of our pre-registration. The title and abstract screening was conducted independently by two researchers using [ASReview](...). [Sec.*Abstract Screening Phase*](...) of our pre-registration presents the details of the abstract screening process. [Sec. *Stopping rules for screening and data extraction*](...) of our pre-registration defines the stopping rules for the abstract screening phase. See [here](...) for further documentation and related files of the abstract screening.
+This dataset of 22,023 studies then entered into the artificial intelligence-supported abstract screening to exclude clearly ineligible studies according to our eligibility criteria as defined in [Sec. *Selection of studies, method of extracting data*](https://osf.io/zdche) of our pre-registration. The title and abstract screening was conducted independently by two researchers using [ASReview](https://asreview.nl/). [Sec.*Abstract Screening Phase*](https://osf.io/zdche) of our pre-registration presents the details of the abstract screening process. [Sec. *Stopping rules for screening and data extraction*](https://osf.io/zdche) of our pre-registration defines the stopping rules for the abstract screening phase. See [here](data/database_search/processed/abstract_screening) for further documentation and related files of the abstract screening.
 
 We then conducted some validity tests as well as agreement and overlap analysis on the merged abstract screening data of both screeners. We then randomized the order of the potentially relevant studies and prepared files to assist and document the full text download. See [here](/data/database_search/processed/post_abstract_screening/Merged_data/merging_testing_pre_download.html) for the documentation and [here](/data/database_search/processed/post_abstract_screening/Merged_data/merging_screener_data.R) for the R code for these steps.
 
