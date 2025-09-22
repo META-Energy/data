@@ -1,6 +1,6 @@
 # Abstract screening
 
-Using [`ASReview_sample_drawing.smcl`](ASReview_sample_drawing.smcl), we first drew a [1% random sample](1_percent_random_sample/1_Percent_random_sample_from_final_Bib.csv) from the 22,023 entries of the [unlabelled (unscreened) full sample of studies](Meta_bib_final.csv). We then conducted abstract screening using [ASReview](https://asreview.nl/) on this 1 % sample to pilot the selection process and to estimate the number of potentially relevant entries in the full sample for the calibration of our stopping rule (see [Sec. *Stopping rules for screening and data extraction* of our pre-registration](...) for details of the abstract screening and [Sec. *Selection of studies, method of extracting data / Abstract Screening Phase*](...) for the stopping rules). In addition to the piloting, the labbeled 1% sample also provided the prior information for the active learning-based abstract screening of the full sample. The results of this initial screening are stored as [asreview_dataset_mp-energy-1-random-sample_update.csv](1_percent_random_sample/asreview_dataset_mp-energy-1-random-sample_update.csv).
+Using [`ASReview_sample_drawing.smcl`](ASReview_sample_drawing.smcl), we first drew a [1% random sample](1_percent_random_sample/1_Percent_random_sample_from_final_Bib.csv) from the 22,023 entries of the [unlabelled (unscreened) full sample of studies](Meta_bib_final.csv). We then conducted abstract screening using [ASReview](https://asreview.nl/) on this 1 % sample to pilot the selection process and to estimate the number of potentially relevant entries in the full sample for the calibration of our stopping rule (see [Sec. *Stopping rules for screening and data extraction* of our pre-registration](https://osf.io/zdche) for details of the abstract screening and [Sec. *Selection of studies, method of extracting data / Abstract Screening Phase*](https://osf.io/zdche) for the stopping rules). In addition to the piloting, the labbeled 1% sample also provided the prior information for the active learning-based abstract screening of the full sample. The results of this initial screening are stored as [asreview_dataset_mp-energy-1-random-sample_update.csv](1_percent_random_sample/asreview_dataset_mp-energy-1-random-sample_update.csv).
 
 We then merged the 1% screened and labelled entries with the remaining entries from the full sample as [`META-EP_full_sample_partially_labeled.csv`](META-EP_full_sample_partially_labeled.csv). This file was then independently used by two screeners for the abstract screening process.
 
@@ -18,7 +18,7 @@ The `.asreview` project files can be opened in [ASReview](https://asreview.nl/) 
 
 ## Analyses of screening
 
-Using [`testing_and_merging_of_AS_data.R`](/data/study_search/database_search/processed/post_abstract_screening/Merged_data/merging_screener_data.R), we did some consistency checks and analysis of the screening as well as preparations for the retrieval of full-text PDFs and full text screening of the potentially eligible studies.
+Using [`merging_screener_data.R`](/data/study_search/database_search/processed/post_abstract_screening/Merged_data/merging_screener_data.R), we did some consistency checks and analysis of the screening as well as preparations for the retrieval of full-text PDFs and full text screening of the potentially eligible studies.
 
 ### Screener agreement and overlap
 
@@ -35,5 +35,4 @@ Using [`testing_and_merging_of_AS_data.R`](/data/study_search/database_search/pr
 ### Randomization and packages creation for full text download
 
 -   Order of entries has been randomized
--   Data is split into a number `.xslx` files with max of 100 entries in each file.
--   These `.xslx` files contain only information relevant for retrieving PDFs and empty columns for notes regarding availability. These files were used for the retrieval of full text PDFs by student assistants following [these instructions](/data/database_search/processed/post_abstract_screening/Full_text_Download_anleitung.doc).
+-   Data is split into a number `.xslx` [files](post_abstract_screening/Packages_for_full_text_download) with max of 100 entries in each file. These files contain only information relevant for retrieving PDFs and empty columns for notes regarding availability. They were used for the retrieval of full text PDFs by student assistants.

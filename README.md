@@ -12,7 +12,7 @@
 >
 > ## Research papers:
 > 
-> Gechert, S., Mey, B., Prante, F., & Schäfer, T. (2025). **The Price Elasticity of Heating and Cooling Energy Demand**. [**[OSF Preprint]**](https://osf.io/preprints/osf/4sjy5) [**[Replication files]**](...)
+> Gechert, S., Mey, B., Prante, F., & Schäfer, T. (2025). **The Price Elasticity of Heating and Cooling Energy Demand**. [**[OSF Preprint]**](https://osf.io/preprints/osf/4sjy5) [**[Replication files]**](TODO: Add link to replication files)
 >
 > **Abstract**: We create a large meta-dataset of price elasticities of energy demand for heating and cooling in buildings, comprising close to 5000 price elasticity estimates including study and observation characteristics from more than 400 primary studies. We find robust and strong signs of p-hacking and publication bias with insignificant or positive elasticities being underrepresented. Correcting for this bias, the price elasticities range from -0.05 to -0.2 for the short run and from -0.1 to -0.3 for the long run. This holds for all relevant fossil fuels and electricity, poor and rich countries, residential and business usage, and aggregate and survey data.
 >
@@ -78,9 +78,9 @@ After the title and abstract screening, a total of 1,949 potentially relevant st
 
 #### Full text assessment and coding
 
-Studies were assessed based on a set of predefined eligibility criteria, which are described in detail in the pre-analysis plan (PAP), documented at https://osf.io/zdche. Furthermore, at this stage we classified the reasons for final study exclusion into nine categories.
+Studies were assessed based on a set of predefined eligibility criteria, which are described in detail in the [pre-analysis plan](https://osf.io/zdche). Furthermore, at this stage we classified the reasons for final study exclusion into nine categories.
 If a study fulfilled all inclusion criteria, it was retained for data extraction. Cases of uncertainty during the screening or extraction process were discussed regularly within the research group to ensure consistent interpretation and application of the inclusion criteria. As part of this process, a set of variables was extracted for each price elasticity estimate, including information on the energy source, the sector, the estimation method, and the time horizon of the elasticity, among others.
-Due to time constraints, it was not possible to screen all potentially relevant studies. The screening phase took place between May 2023 and February 2024. During this period, a total of 1,341 studies were screened, of which 920 were excluded based on the eligibility criteria. An overview of the studies that were excluded based on the predefined exclusion criteria can be found in study_sets_ALL . 421 studies fulfilled our eligibility criteria and provided a total of 4,974 elasticity estimates used in the final dataset. 
+Due to time constraints, it was not possible to screen all potentially relevant studies. The screening phase took place between May 2023 and February 2024. During this period, a total of 1,341 studies were screened, of which 920 were excluded based on the eligibility criteria. An overview of the studies that were excluded based on the predefined exclusion criteria can be found in [study_sets_ALL.xlsx](data/database_search/processed/post_abstract_screening/study_sets_ALL.xlsx). 421 studies fulfilled our eligibility criteria and provided a total of 4,974 elasticity estimates used in the final dataset.
 
 #### Quality concerns 
 
@@ -106,4 +106,4 @@ After completion of the full dataset, a random quality check was conducted: at l
 
 ## Data analyses
 
-Folders with replication files for the data analyses in our research papers are linked [above](https://github.com/META-Energy/data/blob/main/README.md#...).
+Folders with replication files for the data analyses in our research papers are linked [above](https://github.com/META-Energy/data/blob/main/README.md#... TODO: update link).
