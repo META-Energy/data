@@ -106,4 +106,4 @@ After completion of the full dataset, a random quality check was conducted: at l
 
 ## Data analyses
 
-Folders with replication files for the data analyses in our research papers are linked [above](https://github.com/META-Energy/data/blob/main/README.md#... TODO: update link).
+Folders with replication files for the data analyses in our research papers are linked [above](https://github.com/META-Energy/data?tab=readme-ov-file#research-papers).
