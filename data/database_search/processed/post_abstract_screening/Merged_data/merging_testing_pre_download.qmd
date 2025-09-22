@@ -1,0 +1,86 @@
+---
+title: "Abstract screening report and full text download data preparation"
+author: "Franz Prante"
+toc: true
+format: html
+---
+
+## Summary
+
+(All based on code below)
+
+### Tests
+
+#### Valid screener notes?
+
+-   Screener 1 notes are valid.
+-   For screener 2, there is one "91", which is supposed to be "01". But the exclusion of the study is valid.
+
+#### Do screener notes correctly correspond to in-/exclusion of studies?
+
+##### Screener 1
+
+-   For screener 1, no entry that carries an inclusion note is excluded. This is valid.
+-   For screener 1, there is one entry that is included though it carries an exclusion note. But no correction necessary, as the entry will be excluded in the full text screening phase.
+
+##### Screener 2
+
+-   For screener 2, there is one entry that was excluded though it carries an inclusion note. Correction not necessary because this single mistake will only marginally affect the sample.
+-   For screener 2, there are two entries which were included though they carry exclusion notes. But no correction necessary, as these entries will be excluded in the full text screening phase.
+
+#### Tests before and after merging screener data
+
+- "record_id" and "Key" are correctly matching for both Screener 1 and Screener 2 data (i.e. ids and keys were not corrupted during data transformations and processing)
+- merged data correctly matches original screener data (i.e. merging code is valid)
+- Sum of number of prior included studies (17) and the numbers of papers included by one, or both screeners matches number of relevant entries extracted from merged data.
+
+### Analyses of screening
+
+-   3303 entries (excluding the prior sample) were screened by either screener 1 or 2. 1480 were included by screener 1. 1662 were included by screener 2.
+- Total number of relevant entries (including 17 from the prior sample): 1949
+
+#### Screener 1 proportions of in-/exclusions notes
+
+Screener 1 notes (%)
+
+      00   01   02   10   11   12   20   21   22    3 
+    45.6  1.9  0.9  1.5 35.7  1.7  0.4  2.6  8.1  1.8 
+
+![](images/image-590281446.png)
+
+#### Screener 2 proportions of in-/exclusions notes
+
+Screener 1 notes (%)
+
+      00   01   02   10   11   12   20   21   22    3    4   91 
+     2.6 19.5 11.9  1.1 25.1  0.5  5.4 25.1  6.8  1.9  0.1  0.0 
+
+![](images/image-629835415.png)
+
+#### Agreement and overlap
+
+- 1210 entries were included by both screeners.
+- 889 entries were excluded by both screeners.
+- 201 entries were included by screener 1 but excluded by screener 2.
+- 371 entries were included by screener 2 but excluded by screener 1.
+- 2671 entries were screened by both screeners. Of these, 1411, i.e. 52.8 %, were included by Screener 1 and 1581, i.e. 59.2 %, were included by Screener 2.
+- 411 entries were screened exclusively by Screener 1. Of these, 69 were included, i.e. 16.8 %.
+- 221 entries were screened exclusively by Screener 2. Of these, 81 were included, i.e. 36.7 %.
+
+#### Bibtex-Key creation
+
+- There are 74 duplicate Bibtex-keys which need to be corrected when downloading the PDFs.
+
+#### Randomization and package creation
+
+- Order of entries has been randomized
+- Data is split into 20 `.xslx` files with max of 100 entries in each file. The files are stored in `Nextcloud/project-vwl4makro/09_Forschung/Drittmittel/DZ2022/WP2_Meta_energy/search/CSV/Merging_labeled_and_unlabeled_dataset_for_Warm-Up_in_ASReview/After_abstract_screening/Merged_data/Packages_for_full_text_download/`
+- `.xslx` files contain only information relevant for retrieving PDFs and empty columns for notes regarding availability.
+
+## Code and output for testing, merging, analyzing and preparing full text download of abstract screening dataset
+
+```{r}
+#| echo: true
+#| eval: true 
+#| file: merging_screener_data.R
+```
