@@ -12,7 +12,7 @@
 >
 > ## Research papers:
 > 
-> Gechert, S., Mey, B., Prante, F., & Schäfer, T. (2025). **The Price Elasticity of Heating and Cooling Energy Demand**. [**[OSF Preprint]**](https://osf.io/preprints/osf/4sjy5) [**[Replication files]**](TODO: Add link to replication files)
+> Gechert, S., Mey, B., Prante, F., & Schäfer, T. (2025). **The Price Elasticity of Heating and Cooling Energy Demand**. [**[OSF Preprint]**](https://osf.io/preprints/osf/4sjy5) [**[Replication files]**](analyses/replication_main_paper).
 >
 > **Abstract**: We create a large meta-dataset of price elasticities of energy demand for heating and cooling in buildings, comprising close to 5000 price elasticity estimates including study and observation characteristics from more than 400 primary studies. We find robust and strong signs of p-hacking and publication bias with insignificant or positive elasticities being underrepresented. Correcting for this bias, the price elasticities range from -0.05 to -0.2 for the short run and from -0.1 to -0.3 for the long run. This holds for all relevant fossil fuels and electricity, poor and rich countries, residential and business usage, and aggregate and survey data.
 >
