@@ -18,7 +18,7 @@ The `.asreview` project files can be opened in [ASReview](https://asreview.nl/) 
 
 ## Analyses of screening
 
-Using [`merging_screener_data.R`](/data/study_search/database_search/processed/post_abstract_screening/Merged_data/merging_screener_data.R), we did some consistency checks and analysis of the screening as well as preparations for the retrieval of full-text PDFs and full text screening of the potentially eligible studies.
+Using [`merging_screener_data.R`](/database_search/processed/post_abstract_screening/Merged_data/merging_screener_data.R), we did some consistency checks and analysis of the screening as well as preparations for the retrieval of full-text PDFs and full text screening of the potentially eligible studies.
 
 ### Screener agreement and overlap
 
@@ -35,4 +35,4 @@ Using [`merging_screener_data.R`](/data/study_search/database_search/processed/p
 ### Randomization and packages creation for full text download
 
 -   Order of entries has been randomized
--   Data is split into a number `.xslx` [files](post_abstract_screening/Packages_for_full_text_download) with max of 100 entries in each file. These files contain only information relevant for retrieving PDFs and empty columns for notes regarding availability. They were used for the retrieval of full text PDFs by student assistants.
+-   Data is split into a number `.xslx` [files](/database_search/processed/post_abstract_screening/Packages_for_full_text_download) with max of 100 entries in each file. These files contain only information relevant for retrieving PDFs and empty columns for notes regarding availability. They were used for the retrieval of full text PDFs by student assistants.
