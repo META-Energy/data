@@ -14,8 +14,8 @@ Date of search: 25 January 2023
 
 ## Files: 
 
-- The `.zip` [file](database_search/raw/EconLit_search/EconLit_Search_25_01_2023.zip) is the original file as retrieved from EconLit.
-- The `.ris` [file](database_search/raw/EconLit_search/72a6efda-cec3-4de1-95db-f4cfb23f0257.ris) is the unzipped version of the original file and can be opened with bibliographic software (e.g. Zotero).
+- The `.zip` [file](EconLit_Search_25_01_2023.zip) is the original file as retrieved from EconLit.
+- The `.ris` [file](72a6efda-cec3-4de1-95db-f4cfb23f0257.ris) is the unzipped version of the original file and can be opened with bibliographic software (e.g. Zotero).
 
 ## Persistent link to our EconLit search: 
 
