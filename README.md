@@ -72,10 +72,6 @@ After the title and abstract screening, a total of 1,949 potentially relevant st
 
 ### Full text screening
 
-#### PDF retrieval 
-
-...
-
 #### Full text assessment and coding
 
 Studies were assessed based on a set of predefined eligibility criteria, which are described in detail in the [pre-analysis plan](https://osf.io/zdche). Furthermore, at this stage we classified the reasons for final study exclusion into nine categories.
