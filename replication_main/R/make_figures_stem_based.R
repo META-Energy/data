@@ -6,7 +6,7 @@ library(tidyverse)
 library(JWileymisc)
 
 # Load required functions
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/stem_method.R")
+source("replication_main/R/functions/stem_method.R")
 
 ## Load data ----
 d_path <- "replication_main/metaenergy_final.dta" 

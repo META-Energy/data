@@ -5,7 +5,7 @@ library(JWileymisc)
 
 # Source the plotting function
 source(
-  "/Users/franzprante/GitHub/MORPEP/META_CMP/data/analysis/R/plot_counterfactual.R"
+  "replication_main/R/functions/plot_counterfactual.R"
 )
 
 # UI

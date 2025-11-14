@@ -8,16 +8,16 @@ library(patchwork)
 
 ## Load required functions ----
 source(
-  "/Users/franzprante/GitHub/MORPEP/META_CMP/data/analysis/R/run_randomization_test.R"
+  "replication_main/R/functions/run_randomization_test.R"
 )
 source(
-  "/Users/franzprante/GitHub/MORPEP/META_CMP/data/analysis/R/randomization_test_battery.R"
+  "replication_main/R/functions/randomization_test_battery.R"
 )
 source(
-  "/Users/franzprante/GitHub/MORPEP/META_CMP/data/analysis/R/format_randomization_table.R"
+  "replication_main/R/functions/format_randomization_table.R"
 )
 source(
-  "/Users/franzprante/GitHub/MORPEP/META_CMP/data/analysis/R/plot_randomization_tests.R"
+  "replication_main/R/functions/plot_randomization_tests.R"
 )
 
 ## Load data ----

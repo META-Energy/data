@@ -6,12 +6,12 @@ library(dplyr)
 library(plotly)
 
 # Load required functions
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/meta_analysis.R")
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/apply_winsorization.R")
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/kasy_MetaStudiesFunctions.R")
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/kasy_RobustVariance.R")
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/kasy_MetaStudiesPlots.R")
-source("~/GitHub/MORPEP/META_CMP/data/analysis/R/create_z_histogram.R")
+source("replication_main/R/functions/meta_analysis.R")
+source("replication_main/R/functions/apply_winsorization.R")
+source("replication_main/R/functions/kasy_MetaStudiesFunctions.R")
+source("replication_main/R/functions/kasy_RobustVariance.R")
+source("replication_main/R/functions/kasy_MetaStudiesPlots.R")
+source("replication_main/R/functions/create_z_histogram.R")
 
 # Define helper function to calculate factors of change between estimates at thresholds ----
 calculate_factor_changes <- function(results_df) {

@@ -7,10 +7,10 @@ library(JWileymisc)
 
 ## Load required functions ----
 source(
-  "replication_main/R/calibrate_counterfactual.R"
+  "replication_main/R/functions/calibrate_counterfactual.R"
 )
 source(
-  "replication_main/R/plot_counterfactual.R"
+  "replication_main/R/functions/plot_counterfactual.R"
 )
 
 ## Load data ----
